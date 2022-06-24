@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="vincentBlaBla"  >
+    <h1> Dit is mijn project voor week 5.</h1>
+    <form>
+
+
+        <p>Alle gerechten komen met vlees </p>
+        <div>
+            <label>Wat wilt u eten?</label>
+            <select id="Wat wil je eten?">
+                <option value="Wat wilt u eten?">Wat wilt u eten?</option>
+                <option value="Broodje">Broodje</option>
+                <option value="Bami">Bami</option>
+                <option value="Nasi">Nasi</option>
+                <option value="Jollof rice">Jollof rice</option>
+                <option value="Fried rice">Fried rice</option>
+            </select>
+        </div>
+        <div>
+            <lable>Wat voor vlees?</lable>
+            <select id="Wat voor vlees?">
+                <option value="Wat voor vlees?">Wat voor vlees?</option>
+                <option value="Vis">Vis</option>
+                <option value="Kip">Kip</option>
+                <option value="Kip Kerrie">Kip Kerrie</option>
+            </select>
+        </div>
+        <div>
+            <label>Groote?</label>
+            <select id="Groote?">
+                <option value="Groote?">Groote?</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Family Size">Family Size</option>
+
+            </select>
+        </div>
+        <div>
+            <label>Wat wilt u drinken?</label>
+            <select id="Wat wil je drinken?">
+                <option value="Wat wilt u drinken?">Wat wilt u drinken?</option>
+                <option value="Fanta">Fanta</option>
+                <option value="Cola">Cola</option>
+                <option value="Sprite">Sprite</option>
+                <option value="Ice Tea">Ice Tea</option>
+                <option value="Water">Water</option>
+            </select>
+        </div>
+        <div>
+            <lable>Naam</lable>
+            <input />
+        </div>
+        <div>
+            <label>Email</label>
+            <input />
+        </div>
+        <div>
+            <fieldset>
+                Aantal:<br>
+                <div><label for="opt4"><input id="opt4" type="radio" name="1" value="1" tabindex="1" />1<br /></label></div>
+                <div><label for="opt5"><input id="opt5" type="radio" name="2" value="1" tabindex="2" />2<br /></label></div>
+                <div><label for="opt6"><input id="opt6" type="radio" name="3" value="1" tabindex="3" />3<br /></label></div>
+                <div><label for="opt7"><input id="opt7" type="radio" name="4" value="1" tabindex="4" />4<br /></label></div>
+                <div><label for="opt8"><input id="opt8" type="radio" name="5" value="1" tabindex="5" />5<br /></label></div>
+            </fieldset>
+          </div>
+        <div>
+            <fieldset>
+                SnackErbij:<br>
+                <input type="checkbox" name="Kippen pootjes" value="Kippen pootjes" tabindex="1" />Kippen pootjes<br />
+                <input type="checkbox" name="Hamburger" value="Hamburger" tabindex="2" />Hamburger<br />
+                <input type="checkbox" name="Kipburger" value="Kipburger" tabindex="3" />Kipburger<br />
+                <input type="checkbox" name="Milkshake" value="Milkshake" tabindex="4" />Milkshake<br />
+                <input type="checkbox" name="Sundae" value="Sundae" tabindex="5" />Sundae<br />
+            </fieldset>
+        </div>
+        <div>
+            <h4>Nog bijvoegingen voor de bestelling of bezorger?</h4>
+            <textarea rows="4" cols="30"></textarea>
+        </div>
+        <a class="btn btn-success" href="~/Home/Orders">
+            SEND ORDER
+        </a>
+        <input type="submit" value="Reset" />
+    </form>
+   </div>

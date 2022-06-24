@@ -1,0 +1,36 @@
+﻿.vincentBackground {
+    background: #f28926;
+    color: black;
+}
+
+.vincentBlaBla {
+    background-image: url('../plaatjes/div.png');
+}
+.vincent {
+    background: #000000;
+}
+.vincentred {
+    background: #C20F0F;
+}
+.vincentjajaja {
+    background-image: url('../plaatjes/yes.png');
+    color: black;
+}
+.RedAndYellow {
+    color: yellow;
+}
+.green {
+    background: #00b32a;
+}
+.yellow {
+    background: #ffd633;
+}
+.red {
+    background: #C20F0F;
+}
+.black {
+    color: #000000;
+}
+.test {
+    background-image: url('../plaatjes/bbbb.png');
+}

@@ -1,0 +1,24 @@
+body{
+    background-image: url('dirkBG.png');
+	background-size: 100%;
+}
+div{
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 34px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+center{
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 34px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
